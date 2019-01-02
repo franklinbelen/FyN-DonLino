@@ -4,7 +4,7 @@
 $url_template = get_template_directory_uri();
 ?>
 
-<div class="OneCapa FullWidth Col-1">
+<div class="BrujeriaOneCapa FullWidth Col-1">
 <section class="MainSeccionOne NotFullWidth">
     <div class="Col-2 NotPadding">
         <article>

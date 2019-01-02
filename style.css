@@ -33,6 +33,10 @@ Text Domain: fyn-don-lino
 }
 
 
+/* Para los Videos de YouTube
+---------------------------------- */
+.contenedor,.reproductor,img.imagen-previa{display:block;width:100%}.contenedor{margin:20px auto;max-width:600px}.reproductor{height:100%;padding-bottom:56.25%;overflow:hidden;position:relative;cursor:hand;cursor:pointer}img.imagen-previa{left:0;bottom:0;margin:auto;max-width:100%;position:absolute;right:0;top:0;height:auto}div.youtube-play{height:64px;width:64px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;opacity:.7;position:absolute;background:url(https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png) no-repeat}div.youtube-play:hover{opacity:1}#youtube-iframe{width:100%;height:100%;position:absolute;top:0;left:0}
+
 /* Header
 ---------------------------------- */
 .MainImgHeroHome{
@@ -51,7 +55,7 @@ Text Domain: fyn-don-lino
 /* ---------------------------------- 
 /* Inicio Front Page
 ---------------------------------- */
-.page-id-459 .OneCapa{
+.FronPageOneCapa{
     background-color:  var(--color-principal);
 }
 .OneTitlePrincipal{
@@ -237,9 +241,6 @@ Text Domain: fyn-don-lino
     .FourTitlePrincipal{
         font-size: 2rem;
     }
-    .page-id-459 iframe{
-        width: 100% !important;
-    }
     .FourSubTitlle{
         font-size: 1.8rem;
     }
@@ -360,7 +361,7 @@ Text Domain: fyn-don-lino
 /* Inicio amarres-de-amor
 ---------------------------------- */
 /* .page-id-461 */
-.page-id-461 .OneCapa{
+.AmarresAmorOneCapa{
     background-color: #000;
 }
 
@@ -368,7 +369,9 @@ Text Domain: fyn-don-lino
 /* page brujeria */
 .B_OneTitlePrincipal,
 /* page hechizos */
-.H_OneTitlePrincipal{
+.H_OneTitlePrincipal,
+/* Don Lino */
+.DL_OneTitlePrincipal{
     color: var(--color-cuarteto);
     font-size: 2.32rem;
 }
@@ -440,10 +443,13 @@ Text Domain: fyn-don-lino
 /* ---------------------------------- 
 /* Inicio brujeria
 ---------------------------------- */
-/* Bruejria */
-.page-id-463 .OneCapa,
-.page-id-465 .OneCapa{
+/* Brujeria */
+.BrujeriaOneCapa,
 /* Hechizos */
+.HechizosOneCapa,
+/* Don Lino */
+.DonLino.MainSeccionOne,
+.DonLino.MainSeccionTwo{
     background-color: #000;
 }
 /* ---------------------------------- 
@@ -454,15 +460,55 @@ Text Domain: fyn-don-lino
 /* ---------------------------------- 
 /* Inicio Hechizos
 ---------------------------------- */
-.page-id-465 .OneCapa{
-    /* background-color: #000; */
-}
 .H_OneTextYellow{
     color: var(--color-other2);
     font-size: 1.3rem;
 }
 .H_image{
     margin: 4rem 0;
+}
+/* ---------------------------------- 
+/* FyN brujeria
+---------------------------------- */
+
+
+
+
+/* ---------------------------------- 
+/* Inicio brujeria
+---------------------------------- */
+.DL_Description{
+    color: #fff;
+    font-size: 1rem;
+}
+.DL_Description a{
+    color: var(--color-principal);
+}
+.DL_Description a:hover{
+    text-decoration: underline;
+}
+.DL_ul_link li{
+    color:#fff;
+}
+.DL_ul_link li a{
+    color: var(--color-principal);
+}
+@media screen and (min-width: 980px){
+    .DonLino.MainSeccionTwo > div > article{
+        width: 45%;
+    }
+}
+.DL_ImgPost{
+    opacity: .7;
+}
+.DonLino.MainSeccionTwo > div > article:hover .DL_ImgPost{
+    opacity: 1;
+}
+.DL_SubTitle{
+    color: var(--color-principal);
+}
+.DL_description{
+    color: #fff;
 }
 /* ---------------------------------- 
 /* FyN brujeria

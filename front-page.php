@@ -4,34 +4,34 @@
 // URL del directorio
 $url_template = get_template_directory_uri();
 ?>
-<div class="OneCapa">
-<section class="MainSeccionOne NotFullWidth Col-1">
-    <h1 class="OneTitlePrincipal TextCenter">Soy el único Brujo que hace Amarres pactados para el amor en Todo el Mundo</h1>
-    <p class="OneDescription">Bienvenidos a mi página WEB, soy DON LINO el único y auténtico Brujo Peruano que tiene Pacto con el DIABLO (Lucifer) de reconocida fama mundial, descendiente de la más antigua estirpe de Brujos del Norte Peruano, cuento con una trayectoria y experiencia de más de 50 años practicando la Brujería y Hechicería Negra pactada, realizo los únicos y auténticos Amarres de Amor Pactados, reconocidos en el Perú y el Mundo Entero por ser los más efectivos potentes seguros y poderosos, no se dejen sorprender por personas inescrupulosas (seudos brujos) quienes vienen sorprendiendo a mis clientes clonando mi página WEB.</p>
+<div class="FronPageOneCapa">
+    <section class="MainSeccionOne NotFullWidth Col-1">
+        <h1 class="OneTitlePrincipal TextCenter">Soy el único Brujo que hace Amarres pactados para el amor en Todo el Mundo</h1>
+        <p class="OneDescription">Bienvenidos a mi página WEB, soy DON LINO el único y auténtico Brujo Peruano que tiene Pacto con el DIABLO (Lucifer) de reconocida fama mundial, descendiente de la más antigua estirpe de Brujos del Norte Peruano, cuento con una trayectoria y experiencia de más de 50 años practicando la Brujería y Hechicería Negra pactada, realizo los únicos y auténticos Amarres de Amor Pactados, reconocidos en el Perú y el Mundo Entero por ser los más efectivos potentes seguros y poderosos, no se dejen sorprender por personas inescrupulosas (seudos brujos) quienes vienen sorprendiendo a mis clientes clonando mi página WEB.</p>
 
-    <div class="OneImages Col-2">
-        <div>
-            <img src="<?php echo $url_template . '/img/home-book1.png'; ?>" alt="">
+        <div class="OneImages Col-2">
+            <div>
+                <img src="<?php echo $url_template . '/img/home-book1.png'; ?>" alt="">
+            </div>
+            <div>
+                <img src="<?php echo $url_template . '/img/home-book1.png'; ?>" alt="">
+            </div>
         </div>
-        <div>
-            <img src="<?php echo $url_template . '/img/home-book1.png'; ?>" alt="">
+
+        <div class="MenuMedium">
+            <?php
+            if ( has_nav_menu('menu_medium')):
+
+                wp_nav_menu( array(
+                    'theme_location' => 'menu_medium',
+                    'container' => 'nav'
+                ));
+
+            endif;
+            ?>
         </div>
-    </div>
 
-    <div class="MenuMedium">
-        <?php
-        if ( has_nav_menu('menu_medium')):
-
-            wp_nav_menu( array(
-                'theme_location' => 'menu_medium',
-                'container' => 'nav'
-            ));
-
-        endif;
-        ?>
-    </div>
-
-</section>
+    </section>
 </div>
 
 
@@ -100,8 +100,10 @@ $url_template = get_template_directory_uri();
     <h2 class="FourTitlePrincipal TextCenter">Trabajos de Amarres Pactados</h2>
     <p class="FourDescription TextCenter">Mis trabajos pactados Realizados en los lugares mas místicos de todo el Mundo son Reales, y para mayor garantía yo mismo salgo en todos mis vídeos haciendo mis trabajos de <b>Amarres de Amor Pactados</b>, Brujería de Alta Magia y Hechicería pactada las cuales son Fuertes y Rapidos En dar Resultados, devolviendote así la Felicidad que perdiste y/o resultados amorosos o de venganza que esperabas</p>
     
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TryHq5ZrqTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="contenedor">
+        <div class="reproductor" data-id="TryHq5ZrqTs"></div>
+        <style>.contenedor,.reproductor,img.imagen-previa{display:block;width:100%}.contenedor{margin:20px auto;max-width:600px}.reproductor{height:100%;padding-bottom:56.25%;overflow:hidden;position:relative;cursor:hand;cursor:pointer}img.imagen-previa{left:0;bottom:0;margin:auto;max-width:100%;position:absolute;right:0;top:0;height:auto}div.youtube-play{height:64px;width:64px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;opacity:.7;position:absolute;background:url(https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png) no-repeat}div.youtube-play:hover{opacity:1}#youtube-iframe{width:100%;height:100%;position:absolute;top:0;left:0}</style>
+        <script>function labnolThumb(e){return'<img class="imagen-previa" src="//i.ytimg.com/vi/'+e+'/hqdefault.jpg"><div class="youtube-play"></div>'}function labnolIframe(){var e=document.createElement("iframe");e.setAttribute("src","//www.youtube.com/embed/"+this.parentNode.dataset.id+"?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&controls=0&showinfo=0"),e.setAttribute("frameborder","0"),e.setAttribute("id","youtube-iframe"),this.parentNode.replaceChild(e,this)}!function(){for(var e=document.getElementsByClassName("reproductor"),t=0;t<e.length;t++){var a=document.createElement("div");a.innerHTML=labnolThumb(e[t].dataset.id),a.onclick=labnolIframe,e[t].appendChild(a)}}();</script>
     </div>
 
     <h2 class="FourSubTitlle TextCenter">Amarres Pactados para el amor, Los mas Fuertes</h2>

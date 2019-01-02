@@ -4,30 +4,31 @@
 $url_template = get_template_directory_uri();
 ?>
 <section class="MainSeccionOne">
-    <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/i67npTTKb9c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
 
-    <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/YDPsiVwiFYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FRqB6a_drdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/OaxXDEpw8Fc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BCxorOlHPMk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <article class="contenedor">
+        <div class="reproductor" data-id="i67npTTKb9c"></div>
+    </article>
+    
+    <article class="contenedor">
+        <div class="reproductor" data-id="YDPsiVwiFYY"></div>
+        <div class="reproductor" data-id="FRqB6a_drdw"></div>
+        <div class="reproductor" data-id="OaxXDEpw8Fc"></div>
+        <div class="reproductor" data-id="BCxorOlHPMk"></div>
     </article>
 
     <div>
         <img src="<?php echo $url_template . '/img/soy-el-unico-brujo-pactado-1.png'; ?>" alt="">
     </div>
 
-    <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/CfqbVSAQEp8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aCDajmOYtWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/h5aZ8Fo2c9U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lG-8mfB0ZE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <article class="contenedor">
+        <div class="reproductor" data-id="CfqbVSAQEp8"></div>
+        <div class="reproductor" data-id="aCDajmOYtWw"></div>
+        <div class="reproductor" data-id="h5aZ8Fo2c9U"></div>
+        <div class="reproductor" data-id="lG-8mfB0ZE0"></div>
     </article>
-
-    <article>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dqasFUl-pR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <article class="contenedor">
+        <div class="reproductor" data-id="dqasFUl-pR8"></div>
     </article>
 
     <article>
