@@ -1,0 +1,16 @@
+/* Variables CSS */
+:root{
+    --color-principal: #ff0000;
+    --color-secondary: #fe2813;
+    --color-terciario: #e80025;
+    --color-cuarteto: #d81500;
+    
+    --color-other1: #deff00;
+    --color-other2: #f9f000;
+    --color-other3: #2f0303;
+    --color-other4: #750000;
+    --color-other5: #f58a00;
+
+    /* menu Navegación */
+    --height-header: 90px;
+}

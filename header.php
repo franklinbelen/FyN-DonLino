@@ -8,6 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+    
     <?php
     // Tenemos la Imagen destacada de la página
     $img_bg = get_the_post_thumbnail_url();

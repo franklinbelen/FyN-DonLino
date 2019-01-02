@@ -18,21 +18,9 @@ Text Domain: fyn-don-lino
     font-family: 'Marmelad', sans-serif !important;
 }
 
-/* Estilos del Sitio Web */
-:root{
-    --color-principal: #ff0000;
-    --color-secondary: #fe2813;
-    --color-terciario: #e80025;
-    --color-cuarteto: #d81500;
-    
-    --color-other1: #deff00;
-    --color-other2: #f9f000;
-    --color-other3: #2f0303;
-    --color-other4: #750000;
-    --color-other5: #f58a00;
+#wpadminbar{
+    /* display: none */
 }
-
-
 /* Para los Videos de YouTube
 ---------------------------------- */
 .contenedor,.reproductor,img.imagen-previa{display:block;width:100%}.contenedor{margin:20px auto;max-width:600px}.reproductor{height:100%;padding-bottom:56.25%;overflow:hidden;position:relative;cursor:hand;cursor:pointer}img.imagen-previa{left:0;bottom:0;margin:auto;max-width:100%;position:absolute;right:0;top:0;height:auto}div.youtube-play{height:64px;width:64px;left:50%;top:50%;margin-left:-36px;margin-top:-36px;opacity:.7;position:absolute;background:url(https://cdn2.iconfinder.com/data/icons/social-icons-color/512/youtube-64.png) no-repeat}div.youtube-play:hover{opacity:1}#youtube-iframe{width:100%;height:100%;position:absolute;top:0;left:0}
@@ -44,11 +32,6 @@ Text Domain: fyn-don-lino
     background-position: center;
     background-size: cover;
     position: relative;
-}
-.Header{
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 
 
@@ -512,4 +495,4 @@ Text Domain: fyn-don-lino
 }
 /* ---------------------------------- 
 /* FyN brujeria
----------------------------------- */
+---------------------------------- *

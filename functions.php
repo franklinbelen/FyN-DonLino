@@ -14,7 +14,14 @@
 //  Registrando lo Archivos [.css - .js]
 if ( !function_exists('fyn_don_lino_script') ):
     function fyn_don_lino_script (){
-        wp_register_style('style', get_stylesheet_uri(), array(), '1.0.0', 'all');
+        wp_register_style('trabaja-aqui.css', get_template_directory_uri() . '/css/trabaja-aqui.css', array(), '1.0.0', 'all');
+        // Menu de Navegacion
+        wp_register_style('menu-navegaction', get_template_directory_uri() . '/css/menu-navegaction.css', array(), '1.0.0', 'all');
+        // Archivos de la variables css
+        wp_register_style('custom-properties', get_template_directory_uri() . '/css/custom-properties.css', array(), '1.0.0', 'all');
+        // Archivo principal CSS
+        wp_register_style('style', get_stylesheet_uri(), array('custom-properties','menu-navegaction'), '1.0.0', 'all');
+        wp_enqueue_style('trabaja-aqui.css');
         wp_enqueue_style('style');
 
         wp_register_script('script', get_template_directory_uri() . '/script.js', array('jquery'), '1.0.0', true);
