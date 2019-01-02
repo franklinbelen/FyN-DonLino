@@ -11,14 +11,19 @@ Tags:
 Text Domain: fyn-don-lino
 */
 
+@import url('https://fonts.googleapis.com/css?family=Marmelad');
 *,::after,::before{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}body{margin:0}img{display:block;max-width:100%;margin:auto;height:auto}a{text-decoration:none}nav li,nav ul{list-style:none}h1,h2,h3,p{margin:10px}:root{--max-width:1200px;--padding-col:2rem 0;--tamanio-child-col2:50%;--tamanio-child-col3:33.3%;--tamanio-child-col4:25%;--tamanio-child-col6:15%}.NotFullWidth{max-width:var(--max-width);margin:auto}.FullWidth{max-width:100%}[class*=Col]{padding:var(--padding-col);display:flex}.Col-2,.Col-3,.Col-4,.Col-6{flex-wrap:wrap;justify-content:space-between;align-items:center}.Col-2>*,.Col-3>*,.Col-4>*,.Col-6>*{margin-bottom:2rem}.Col-1{flex-direction:column;align-items:center}.Col-2>*{width:var(--tamanio-child-col2)}.Col-3>*{width:var(--tamanio-child-col3)}.Col-4>*{width:var(--tamanio-child-col4)}.Col-6>*{width:var(--tamanio-child-col6)}@media screen and (max-width:980px){.Col-2,.Col-3{justify-content:space-around}:root{--padding-col:2rem;--tamanio-child-col2:80%;--tamanio-child-col3:50%;--tamanio-child-col4:50%;--tamanio-child-col6:30%}}@media screen and (max-width:520px){:root{--tamanio-child-col2:100%;--tamanio-child-col3:100%;--tamanio-child-col4:100%;--tamanio-child-col6:50%}}.NotPaddingTop{padding-top:0}.NotPaddingRight{padding-right:0}.NotPaddingBottom{padding-bottom:0}.NotPaddingLeft{padding-left:0}.NotPadding{padding:0}.TextLeft{text-align:initial}.TextCenter{text-align:center}.TextRight{text-align:right}
 
+*{
+    font-family: 'Marmelad', sans-serif !important;
+}
 
 /* Estilos del Sitio Web */
 :root{
     --color-principal: #ff0000;
     --color-secondary: #fe2813;
     --color-terciario: #e80025;
+    --color-cuarteto: #d81500;
     
     --color-other1: #deff00;
     --color-other2: #f9f000;
@@ -43,14 +48,11 @@ Text Domain: fyn-don-lino
 }
 
 
-
-/* Front Page 
+/* ---------------------------------- 
+/* Inicio Front Page
 ---------------------------------- */
-.OneCapa{
+.page-id-459 .OneCapa{
     background-color:  var(--color-principal);
-}
-.MainSeccionOne{
-    /* border: 2px solid red; */
 }
 .OneTitlePrincipal{
     font-size: 2.2rem;
@@ -74,6 +76,7 @@ Text Domain: fyn-don-lino
 .MenuMedium nav ul{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .MenuMedium nav ul li a{
     background-color: var(--color-secondary);
@@ -85,6 +88,7 @@ Text Domain: fyn-don-lino
     overflow: hidden;
     display: block;
     z-index: 1;
+    margin-bottom: .5rem;
 }
 .MenuMedium nav ul li a:before{
     content: "";
@@ -138,11 +142,7 @@ Text Domain: fyn-don-lino
 .TwoBotonClicAqui a:hover{
     background:rgb(182, 0, 0);
 }
-@media screen and (max-width: 980px){
-    .TwoBotonClicAqui a{
-        font-size: 1.6rem;
-    }
-}
+
 
 
 
@@ -219,17 +219,43 @@ Text Domain: fyn-don-lino
     background-image: url("img/vender_mi_alma_2.png") !important;
 }
 
+@media screen and (max-width: 980px){
+    /* Titulo principal */
+    .OneTitlePrincipal{
+        font-size: 1.8rem;
+        width: 100%;
+    }
+    .TwoBotonClicAqui a{
+        font-size: 1.6rem;
+    }
+    /* Menu Medium */
+
+    /*  */
+    .TwoText p{
+        text-align: justify;
+    }
+    .FourTitlePrincipal{
+        font-size: 2rem;
+    }
+    .page-id-459 iframe{
+        width: 100% !important;
+    }
+    .FourSubTitlle{
+        font-size: 1.8rem;
+    }
+    .FourSubSubTitlle{
+        font-size: 1.4rem;
+    }
+}
+/* ---------------------------------- 
+/* FyN Front Page
+---------------------------------- */
 
 
 
 
-
-
-
-
-
-
-/* Footer
+/* ---------------------------------- 
+/* Inicio Footer
 ---------------------------------- */
 .Footer{
     background-color: var(--color-other4);
@@ -324,3 +350,120 @@ Text Domain: fyn-don-lino
     font-weight: bold;
     text-transform: uppercase;
 }
+/* ---------------------------------- 
+/* FyN Footer
+---------------------------------- */
+
+
+
+/* ---------------------------------- 
+/* Inicio amarres-de-amor
+---------------------------------- */
+/* .page-id-461 */
+.page-id-461 .OneCapa{
+    background-color: #000;
+}
+
+.PADA_OneTitlePrincipal,
+/* page brujeria */
+.B_OneTitlePrincipal,
+/* page hechizos */
+.H_OneTitlePrincipal{
+    color: var(--color-cuarteto);
+    font-size: 2.32rem;
+}
+.PADA_OneText,
+/* page brujeria */
+.B_OneText,
+/* page hechizos */
+.H_OneText{
+    color: rgba(204,204,204);
+    text-align: justify;
+    font-weight: bold;
+}
+.PADA_OneTextYellow,
+/* page brujeria */
+.B_OneTextYellow{
+    color: var(--color-other2);
+    font-size: 1.3rem;
+    margin: 2rem 0;
+}
+.PADA_OneSubTitle{
+    color: var(--color-terciario);
+    font-size: 2.3rem;
+    margin-top: 1.5rem;
+}
+.PADA_OneSubSubTitle,
+/* Page Brujeria */
+.H_SubTitle{
+    color: var(--color-other2);
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+@media screen and (max-width: 980px){
+    .PADA_OneTitlePrincipal,
+    .PADA_OneSubTitle,
+    .PADA_OneTextYellow,
+    .PADA_OneSubSubTitle{
+        text-align: center;
+    }
+    .PADA_OneTitlePrincipal,
+    /* Page Brujeria */
+    .B_OneTitlePrincipal{
+        font-size: 2rem;
+    }
+    .PADA_OneTextYellow,
+    /* Page Brujeria */
+    .B_OneTextYellow{
+        font-size: 1rem;
+    }
+    
+    /* Start Page Brujeria */
+    .B_OneTextYellow{
+        text-align: justify;
+    }
+    /* End Page Brujeria */
+
+    .PADA_OneSubTitle{
+        font-size: 1.8rem;
+    }
+    .PADA_OneSubSubTitle{
+        font-size: 1.1rem;
+    }
+}
+/* ---------------------------------- 
+/* FyN amarres-de-amor
+---------------------------------- */
+
+
+
+/* ---------------------------------- 
+/* Inicio brujeria
+---------------------------------- */
+/* Bruejria */
+.page-id-463 .OneCapa,
+.page-id-465 .OneCapa{
+/* Hechizos */
+    background-color: #000;
+}
+/* ---------------------------------- 
+/* FyN brujeria
+---------------------------------- */
+
+
+/* ---------------------------------- 
+/* Inicio Hechizos
+---------------------------------- */
+.page-id-465 .OneCapa{
+    /* background-color: #000; */
+}
+.H_OneTextYellow{
+    color: var(--color-other2);
+    font-size: 1.3rem;
+}
+.H_image{
+    margin: 4rem 0;
+}
+/* ---------------------------------- 
+/* FyN brujeria
+---------------------------------- */

@@ -31,20 +31,20 @@ $url_template = get_template_directory_uri();
     </article>
 </section>
 
-<section class="MainSeccionOne">
+<section class="MainSeccionTwo">
     <article>
         <a href="">
             <img src="<?php echo $url_template . '/img/brujo-de-huancabamba-1.jpg'; ?>" alt="">
+            <h2>Brujo de las Huaringas de Huancabamba</h2>
+            <p>Don Lino es el Autentico Brujo Pactado de las Lagunas de las Huaringas de Huancabamba - Piura, a donde viaja personalmente a esas montañas elevadas a realizar sus famosos AMARRES PACTADOS los cuales son muy poderosos , rápidos y difíciles de romper por cualquier otro brujo, es por ello que el tiene la fama de ser el MEJOR BRUJO DE TODO EL MUNDO,y para ello DON LINO tiene en Fotos y Vídeos de todos sus trabajos de Amarres de amor pactados que realiza mostrando su rostro para mas veracidad de sus clientes</p>
         </a>
-        <h2>Brujo de las Huaringas de Huancabamba</h2>
-        <p>Don Lino es el Autentico Brujo Pactado de las Lagunas de las Huaringas de Huancabamba - Piura, a donde viaja personalmente a esas montañas elevadas a realizar sus famosos AMARRES PACTADOS los cuales son muy poderosos , rápidos y difíciles de romper por cualquier otro brujo, es por ello que el tiene la fama de ser el MEJOR BRUJO DE TODO EL MUNDO,y para ello DON LINO tiene en Fotos y Vídeos de todos sus trabajos de Amarres de amor pactados que realiza mostrando su rostro para mas veracidad de sus clientes</p>
     </article>
     <article>
         <a href="">
             <img src="<?php echo $url_template . '/img/Brujo_pactado.jpg'; ?>" alt="">
+            <h2>Poseedor y Conocedor del: "Pactus Satanys"</h2>
+            <p>Don Lino es el Único y Autentico Brujo Pactado en Todo el mundo y el Único en demostrar con Fotos y vídeos sus Auténticos Trabajos pactados realizando AMARRES DE AMOR, RETORNO DEL SER AMADO, SACAR A 3ras PERSONAS DE TU RELACIÓN Y/O CAMINO, BRUJERIA , HECHICERIA PARA EL AMOR, ETC . para Don Lino, ningún trabajo es imposible ya que gracias a su pacto el resuelve cualquier problema que estés pasando y sin efectos secundarios</p>
         </a>
-        <h2>Poseedor y Conocedor del: "Pactus Satanys"</h2>
-        <p>Don Lino es el Único y Autentico Brujo Pactado en Todo el mundo y el Único en demostrar con Fotos y vídeos sus Auténticos Trabajos pactados realizando AMARRES DE AMOR, RETORNO DEL SER AMADO, SACAR A 3ras PERSONAS DE TU RELACIÓN Y/O CAMINO, BRUJERIA , HECHICERIA PARA EL AMOR, ETC . para Don Lino, ningún trabajo es imposible ya que gracias a su pacto el resuelve cualquier problema que estés pasando y sin efectos secundarios</p>
     </article>
 
     <article>
